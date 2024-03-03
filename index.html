@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href ="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name = "description" content="width=device-width, initial-scale=1.0" />    
+    <title>File Transfer</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" alt="iit logo" src="https://www.iitpkd.ac.in/sites/default/files/inline-images/IIT_PKD_short%20logo_RGB.jpg">
+        <h1>File Transfer - IIT PKD</h1>
+        <nav>
+            <ul>
+                <li><a href="#">SignIn</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method = "post">
+            <section role="region" aria-labelledby="Text">
+                <h2 id="Text">Text</h2>
+                <div class="question-block">
+                    <label for="text-area"></label>
+                  </div>
+                  <div class="answer">
+                    <textarea id="text-area" name="write" rows="10" cols="50" placeholder="Type Something...."></textarea>
+                  </div>
+                </div>
+              </section>
+              <button type="submit">Save</button>
+              </section>
+
+            <section role="region" aria-labelledby="File">
+                <h2 id="File">File</h2>
+                <label for="file-input">Upload a file:</label>
+
+<input type="file" id="file-input" name="upload"  accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <br><button>Submit</button></section></form></br>
+            </section>
+          </form>
+
+    
+    </main>
+</body>
+</html>
